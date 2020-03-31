@@ -1,0 +1,9 @@
+{
+  "scripts": {
+      "non-wasm": "0x --output-dir non-wasm-flamegraph ./automerge-text.js",
+      "wasm": "0x --output-dir wasm-flamegraph ./automerge-text.js wasm"
+  },
+  "dependencies": {
+    "0x": "^4.9.1"
+  }
+}
